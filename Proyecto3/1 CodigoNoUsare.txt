@@ -1,0 +1,97 @@
+    <nav>
+      <div class="p-3 m-1 bg-black" data-bs-theme="dark" >
+        <button href="#Inicio" type="button" class="btn" style="background-color: rgb(149, 13, 90);">Inicio</button>
+        <button href="biomas.html" type="button" class="btn" style="background-color:rgb(131, 4, 169)">Biomas</button>
+        <button href="bloques.html" type="button" class="btn" style="background-color:rgb(36, 209, 27)">Bloques</button>
+        <button href="#Armaduras" type="button" class="btn" style="background-color:rgb(25, 88, 134)">Armaduras</button>
+        <button href="#Herramientas" type="button" class="btn" style="background-color:rgb(202, 165, 0)">Herramientas</button>
+        <button href="#Encantamientos" type="button" class="btn" style="background-color:rgb(149, 13, 90)">Encantamientos</button>
+        <button href="#Pociones" type="button" class="btn" style="background-color:rgb(131, 4, 169)">Pociones</button>
+        <button href="#Criaturas" type="button" class="btn" style="background-color:rgb(36, 209, 27)">Criaturas</button>
+        <button href="#Comercio" type="button" class="btn" style="background-color:rgb(25, 88, 134)">Comercio</button>
+        <button href="#Dudas" type="button" class="btn" style="background-color:rgb(202, 165, 0)">Dudas</button>
+      </div>
+    </nav>
+        <section class="p-5 text-center bg-white bg-opacity-50">
+      <div class="row">
+        <div id="#Biomas" class="col">
+          <div class="card">
+            <img src="./Fotos/TodosBiomas.jpg" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="biomas.html" type="button" class="btn btn-success" style="font-size: 20px;">Ir a los Biomas!!</a>
+            </div>
+          </div>
+        </div>
+        <div id="#Bloques" class="col">
+          <div class="card">
+            <img src="./FotosBloques/Bloques.jpg" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="bloques.html" type="button" class="btn btn-success" style="font-size: 20px;">Ver bloques!!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="#Armaduras" class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="armadura.html" type="button" class="btn btn-success" style="font-size: 20px;">Ver Armaduras!!</a>
+            </div>
+          </div>
+        </div>
+        <div id="#Herramientas" class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="herramientas.html" type="button" class="btn btn-success" style="font-size: 20px;">Ver Herramientas!!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="#Encantamientos" class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="encantamientos.html" type="button" class="btn btn-success" style="font-size: 20px;">Ver Encantamientos!!</a>
+            </div>
+          </div>
+        </div>
+        <div id="#Pociones" class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="pociones.html" type="button" class="btn btn-success" style="font-size: 20px;">Ver Pociones!!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="#Criaturas" class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="criaturas.html" type="button" class="btn btn-success" style="font-size: 20px;">Ver Criaturas!!</a>
+            </div>
+          </div>
+        </div>
+        <div id="#Comercio" class="col">
+          <div class="card">
+            <img src="" class="card-img-top" alt="Minecraft">
+            <div class="card-body">
+              <a href="comercio.html" type="button" class="btn btn-success" style="font-size: 20px;">Ver el Comercio!!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+    
+
+    <h1 class="p-2 text-white text-center bg-black bg-opacity-25" style="font-size: 90px;">Pociones</h1>
+
+    <table style="width: 100%; text-align: center; font-size: 15px;" class="text-black">
+
+    </table>

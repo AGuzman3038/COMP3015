@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bo
+    otstrap.min.css">
+    <!-- jQuery -->
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jque
+    ry.min.js"></script>
+    <!-- Bootstrap JS (opcional) -->
+    <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/boot
+    strap.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <script src="script.js"></script>
+    
+</head>
+<body style="background-image: url(./El-Clima-hoy.webp); background-repeat: no-repeat; background-size: cover;">
+    <div class="container mt-5" style="text-align: center;">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 3em;">Consulta el clima para una semana</h5>
+                            <div class="form-group">
+                                <label for="location" >Ubicación:</label>
+                                <input
+                                type="text"
+                                class="form-control"
+                                id="location"
+                                placeholder="Introduce la ciudad"/>
+                            </div>
+                            <button id="checkWeather" class="btn btn-primary"> Ver clima </button>
+                    </div>
+                </div>
+                <div id="weatherResult" class="mt-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

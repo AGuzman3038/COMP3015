@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirige las solicitudes a archivos o directorios existentes directamente a esos archivos o directorios
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirige todas las demás solicitudes a index.php
+RewriteRule ^ /public/index.php [L,QSA]
